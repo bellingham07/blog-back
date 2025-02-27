@@ -1,0 +1,15 @@
+mysql:
+  username: root  # 替换为实际用户名
+  password: caojinbo  # 替换为实际密码
+  host: 127.0.0.1
+  port: 3306
+  DB: blog_db
+  charset: utf8mb4
+# config/application.yaml
+email:
+  smtp:
+    host: smtp.example.com
+    port: 587
+    username: ${EMAIL_USER:notification@example.com}
+    password: ${EMAIL_PASSWORD}
+    from: "Birthday Bot <noreply@example.com>"
